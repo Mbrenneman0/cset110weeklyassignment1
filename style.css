@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'leckerlione';
+    src: url(fonts/leckerlione/leckerlione-regular-webfont.woff), url(fonts/leckerlione/leckerlione-regular-webfont.svg);
+}
+
+@font-face {
+    font-family: 'pollerone';
+    src: url(fonts/pollerone/pollerone-webfont.woff), url(fonts/pollerone/pollerone-webfont.svg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 50px;
+    text-align: center;
+}
+
+#header_image{
+    margin: 20px;
+}
+
+#nav_links{
+    margin: 20px;
+}
+
+#nav_links a{
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 900;
+    text-decoration: none;
+    color: #252525;
+}
+
+.current_link{
+    color: #0BA39C !important;
+}
+
+#nav_links a:hover{
+    color: #0BA39C;
+}
+
+.content{
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: #252525;
+    color: white;
+}
+
+.footer div{
+    width: 50%;
+    text-align: center;
+}
+
+.hover_img{
+    display: none;
+}
+
+a:hover .default_img{
+    display: none;
+}
+
+a:hover .hover_img{
+    display: inline-block !important;
+}
+
+#hero{
+    background-image: url(/images/the-beacon.jpg);
+    background-repeat: no-repeat;
+    background-size: max(942px, 100%);
+    height: 0;
+    padding-top: max(360px, 38%);
+    position: relative;
+}
+
+#hero_text{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#hero h1{
+    margin: 20px 0;
+    padding: 15px 30px;
+    background-color: white;
+    color: #252525;
+    width: max-content;
+    font-family: 'pollerone', Arial, Helvetica;
+    font-size: 2vw;
+}
+
+#hero p{
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #252525;
+    color: white;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+#hero a{
+    padding: 20px;
+    background-color: #0BA39C;
+    color: white;
+    text-decoration: none;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform:uppercase;
+}
+
+#hero a:hover{
+    background-color: white;
+    color: #0BA39C;
+}
+
+#example_container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.example_box{
+    margin: 10px;
+    text-align: center;
+}
+
+.example_box p{
+    margin: 20px;
+    font-family: 'pollerone', Arial, Helvetica;
+    font-size: 15pt;
+}
+
+#about_content{
+    text-align: center;
+}
+
+.content h1{
+    margin: 0 auto;
+    padding: 10px 30px;
+    background-color: #252525;
+    color: white;
+    width: max-content;
+    font-family: 'pollerone';
+    font-size: 25pt;
+}
+
+.content img{
+    margin: 30px;
+    border: 2px solid #252525;
+}
+
+#about_content h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about_content p{
+    margin: 10px auto;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+    color: black;
+}
+
+#gallery_content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#blog_container{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#blog_post{
+    margin: 20px;
+    border: 2px solid #252525;
+    height: inherit;
+    min-height: 295px;
+    display: flex;
+}
+
+#blog_post img{
+    margin: 0;
+    border: none;
+    border-right: 2px solid #252525;
+}
+
+#blog_info{
+    padding: 5%;
+    text-align: center;
+    max-width: 624px;
+}
+
+#blog_info h2{
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+#blog_info p{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+#blog_link{
+    padding: 5px 20px;
+    background-color: #252525;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    border: solid 2px #252525;
+}
+
+#blog_link:hover{
+    background-color: white;
+    color: #252525;
+}
